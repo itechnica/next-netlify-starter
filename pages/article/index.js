@@ -13,7 +13,7 @@ export default function Article() {
       <main>
         <Header title="Welcome to articles!" />
         <p className="description">
-          Article home page</code>
+          Article home page
         </p>
         <p>
           Added by Me!
