@@ -8,8 +8,3 @@
     Content-Security-Policy = "default-src 'self';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-
-#[[redirects]]
-#  from = "/article/:article_ref/*"
-#  to = "/article/article?ref=:article_ref"
-#  status = 200
