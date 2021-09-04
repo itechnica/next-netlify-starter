@@ -11,7 +11,7 @@ export default function Article(props) {
 
   useEffect(() => {
     // Always do navigations after the first render
-    router.push('/?counter=10', undefined, { shallow: true })
+    router.push('/article/77/fake-article', undefined, { shallow: true })
   }, [])
 
   return (
