@@ -6,7 +6,6 @@ import Footer from '@components/Footer'
 export default function Article(props) {
 
   const {query} = useRouter();
-  const history_url = "/banana/77/an-article-title"
 
   return (
     <div className="container">
