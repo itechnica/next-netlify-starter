@@ -6,13 +6,14 @@ import Footer from '@components/Footer'
 export default function Article(props) {
 
   const {query} = useRouter();
+  const history_url = "/banana/77/an-article-title"
 
   return (
     <div className="container">
       <Head>
         <title>Article</title>
         <link rel="icon" href="/favicon.ico" />
-        <script>history.pushState(null, "", "/banana/77/an-article-title")</script>
+        <script>history.pushState(null, "", history_url)</script>
       </Head>
 
       <main>
