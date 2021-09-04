@@ -7,12 +7,11 @@ import Footer from '@components/Footer'
 export default function Article(props) {
 
   const {query} = useRouter();
-  const router = useRouter()
+  const history_url = "/banana/77/an-article-title"
+  const router = useRouter();
 
-  useEffect(() => {
-    // Always do navigations after the first render
-    router.push('/article/77/fake-article', undefined, { shallow: true })
-  }, [])
+  router.replace(history_url);
+
 
   return (
     <div className="container">
