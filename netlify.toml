@@ -10,5 +10,5 @@
     X-XSS-Protection = "1; mode=block"
 
 [[redirects]]
-  from = "/a"
-  to = "/article/"
+  from = "/article/:article_ref/*"
+  to = "/article/article?ref=article_ref"
