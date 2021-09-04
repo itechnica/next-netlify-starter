@@ -12,3 +12,4 @@
 [[redirects]]
   from = "/article/:article_ref/*"
   to = "/article/article?ref=article_ref"
+  status 200
