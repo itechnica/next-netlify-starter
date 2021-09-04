@@ -9,7 +9,7 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-[[redirects]]
-  from = "/article/:article_ref/*"
-  to = "/article/article?ref=:article_ref"
-  status = 200
+#[[redirects]]
+#  from = "/article/:article_ref/*"
+#  to = "/article/article?ref=:article_ref"
+#  status = 200
