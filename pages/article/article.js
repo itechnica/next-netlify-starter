@@ -17,7 +17,7 @@ export default function Article(props) {
       <main>
         <Header title="Welcome to a specific article!" />
         <p className="description">
-          This is article {query.article_ref}.
+          This is article {query.ref}.
         </p>
       </main>
 
