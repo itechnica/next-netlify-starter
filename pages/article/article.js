@@ -12,6 +12,7 @@ export default function Article(props) {
       <Head>
         <title>Article</title>
         <link rel="icon" href="/favicon.ico" />
+        <script>history.pushState(null, "", "/banana/77/an-article-title")</script>
       </Head>
 
       <main>
